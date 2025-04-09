@@ -45,6 +45,13 @@
         .example-group {
             margin-bottom: 40px;
         }
+        .original-label {
+            font-weight: bold;
+            color: #2b3ac0;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
         .exo-label {
             font-weight: bold;
             color: #C0392B;
@@ -156,6 +163,11 @@
 
                 const memoryGuideRow = document.createElement('div');
                 memoryGuideRow.className = 'memory-guide-row';
+
+                const origLabel = document.createElement('div');
+                origLabel.className = 'original-label';
+                origLabel.textContent = 'Corpus memory = track from original mix';
+                section.appendChild(origLabel);
 
                 fullSet.forEach((file, i) => {
                     if (i === 0 && example.includes('_exo')) return;
