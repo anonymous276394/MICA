@@ -1,0 +1,99 @@
+Mix : 0.25s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.25s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 0.20%, mean_len = 2.22, median_len = 1.00, max_len = 11, entropy = 1.94 [Bits], gt_set_portion = 89.47%
+
+Mix : 0.25s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.25s_A256_SchedSamp_SpecVQ_1_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 0.10%, mean_len = 1.89, median_len = 1.00, max_len = 11, entropy = 3.22 [Bits], gt_set_portion = 42.47%
+
+Mix : 0.25s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.25s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 0.69%, mean_len = 2.18, median_len = 1.00, max_len = 14, entropy = 1.99 [Bits], gt_set_portion = 62.69%
+
+Mix : 0.35s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.35s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.11%, mean_len = 4.08, median_len = 1.00, max_len = 37, entropy = 1.55 [Bits], gt_set_portion = 78.95%
+
+Mix : 0.35s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.35s_A256_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 0.32%, mean_len = 1.55, median_len = 1.00, max_len = 12, entropy = 2.94 [Bits], gt_set_portion = 44.02%
+
+Mix : 0.35s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.35s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.16%, mean_len = 1.59, median_len = 1.00, max_len = 9, entropy = 3.38 [Bits], gt_set_portion = 71.64%
+
+Mix : 0.5s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.5s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.08%, mean_len = 4.80, median_len = 2.00, max_len = 16, entropy = 1.74 [Bits], gt_set_portion = 84.21%
+
+Mix : 0.5s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.5s_A256_SchedSamp_SpecVQ_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 0.32%, mean_len = 1.22, median_len = 1.00, max_len = 3, entropy = 3.82 [Bits], gt_set_portion = 42.47%
+
+Mix : 0.5s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/Q_A/Duo2_3/Mem2_Duo2_4_guitare.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Q_A/Duo2_3/Guide_Duo2_3_voix.wav
+	Model : canonne_0.5s_A64_SchedSamp_SpecVQ_3
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.02%, mean_len = 1.53, median_len = 1.00, max_len = 8, entropy = 3.37 [Bits], gt_set_portion = 62.69%
+

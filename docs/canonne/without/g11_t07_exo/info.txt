@@ -1,0 +1,99 @@
+Mix : 0.25s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.25s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 13.89%, mean_len = 2.47, median_len = 1.00, max_len = 40, entropy = 2.40 [Bits], gt_set_portion = 63.16%
+
+Mix : 0.25s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.25s_A256_SchedSamp_SpecVQ_1_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 3.67%, mean_len = 1.47, median_len = 1.00, max_len = 11, entropy = 4.42 [Bits], gt_set_portion = 30.89%
+
+Mix : 0.25s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.25s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 7.84%, mean_len = 1.66, median_len = 1.00, max_len = 25, entropy = 3.34 [Bits], gt_set_portion = 52.24%
+
+Mix : 0.35s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.35s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 19.63%, mean_len = 2.55, median_len = 2.00, max_len = 16, entropy = 1.72 [Bits], gt_set_portion = 57.89%
+
+Mix : 0.35s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.35s_A256_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 5.93%, mean_len = 1.31, median_len = 1.00, max_len = 8, entropy = 4.93 [Bits], gt_set_portion = 32.82%
+
+Mix : 0.35s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.35s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 8.65%, mean_len = 1.61, median_len = 1.00, max_len = 12, entropy = 3.87 [Bits], gt_set_portion = 50.75%
+
+Mix : 0.5s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.5s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 17.80%, mean_len = 2.80, median_len = 2.00, max_len = 16, entropy = 2.28 [Bits], gt_set_portion = 57.89%
+
+Mix : 0.5s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.5s_A256_SchedSamp_SpecVQ_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 4.25%, mean_len = 1.45, median_len = 1.00, max_len = 8, entropy = 5.04 [Bits], gt_set_portion = 32.43%
+
+Mix : 0.5s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/without/g11_t07/Mem2_ou_Guide_Duo8_1_saxophone.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/without/g11_t07/Guide_ou_Mem2_g11_t03.wav
+	Model : canonne_0.5s_A64_SchedSamp_SpecVQ_3
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 5.64%, mean_len = 1.58, median_len = 1.00, max_len = 6, entropy = 3.08 [Bits], gt_set_portion = 52.24%
+

@@ -1,0 +1,99 @@
+Mix : 0.25s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.25s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 2.52%, mean_len = 1.73, median_len = 1.00, max_len = 9, entropy = 2.40 [Bits], gt_set_portion = 73.68%
+
+Mix : 0.25s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.25s_A256_SchedSamp_SpecVQ_1_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.12%, mean_len = 2.03, median_len = 1.00, max_len = 8, entropy = 2.13 [Bits], gt_set_portion = 28.19%
+
+Mix : 0.25s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.25s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 3.44%, mean_len = 2.03, median_len = 1.00, max_len = 13, entropy = 1.13 [Bits], gt_set_portion = 41.79%
+
+Mix : 0.35s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.35s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 4.55%, mean_len = 4.43, median_len = 2.00, max_len = 19, entropy = 1.42 [Bits], gt_set_portion = 73.68%
+
+Mix : 0.35s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.35s_A256_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.09%, mean_len = 1.42, median_len = 1.00, max_len = 3, entropy = 1.83 [Bits], gt_set_portion = 28.19%
+
+Mix : 0.35s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.35s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.68%, mean_len = 1.50, median_len = 1.00, max_len = 7, entropy = 3.20 [Bits], gt_set_portion = 52.24%
+
+Mix : 0.5s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.5s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 3.26%, mean_len = 2.40, median_len = 1.00, max_len = 14, entropy = 2.29 [Bits], gt_set_portion = 78.95%
+
+Mix : 0.5s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.5s_A256_SchedSamp_SpecVQ_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.90%, mean_len = 1.47, median_len = 1.00, max_len = 7, entropy = 3.52 [Bits], gt_set_portion = 33.20%
+
+Mix : 0.5s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Mem2_g02_t14.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/Lead-Acc/g02_t05/Guide_g02_t05-2.wav
+	Model : canonne_0.5s_A64_SchedSamp_SpecVQ_3
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 1.36%, mean_len = 1.38, median_len = 1.00, max_len = 5, entropy = 2.94 [Bits], gt_set_portion = 46.27%
+

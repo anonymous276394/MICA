@@ -1,0 +1,99 @@
+Mix : 0.25s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.25s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 25.48%, mean_len = 2.40, median_len = 2.00, max_len = 40, entropy = 1.66 [Bits], gt_set_portion = 52.63%
+
+Mix : 0.25s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.25s_A256_SchedSamp_SpecVQ_1_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 2.90%, mean_len = 1.18, median_len = 1.00, max_len = 4, entropy = 2.71 [Bits], gt_set_portion = 13.13%
+
+Mix : 0.25s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.25s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.25[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 12.90%, mean_len = 1.49, median_len = 1.00, max_len = 6, entropy = 3.35 [Bits], gt_set_portion = 32.84%
+
+Mix : 0.35s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.35s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 29.09%, mean_len = 2.79, median_len = 2.00, max_len = 11, entropy = 1.34 [Bits], gt_set_portion = 57.89%
+
+Mix : 0.35s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.35s_A256_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 8.64%, mean_len = 1.32, median_len = 1.00, max_len = 5, entropy = 3.27 [Bits], gt_set_portion = 10.04%
+
+Mix : 0.35s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.35s_A64_SchedSamp_SpecVQ_2_continued
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.35[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 15.45%, mean_len = 1.71, median_len = 1.00, max_len = 6, entropy = 2.83 [Bits], gt_set_portion = 26.87%
+
+Mix : 0.5s_A16_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.5s_A16_SchedSamp_SpecVQ
+	Params :
+		vocab_size = 16, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 22.50%, mean_len = 1.61, median_len = 1.00, max_len = 6, entropy = 1.33 [Bits], gt_set_portion = 57.89%
+
+Mix : 0.5s_A256_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.5s_A256_SchedSamp_SpecVQ_continued
+	Params :
+		vocab_size = 256, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 6.25%, mean_len = 1.16, median_len = 1.00, max_len = 5, entropy = 3.92 [Bits], gt_set_portion = 13.13%
+
+Mix : 0.5s_A64_0 :
+	Memory: ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Mem_g07_t08_2.wav
+	Sources:
+	 - ../consignes_generation_2025/canonne/intensité_densité/g07_t08/Guide_g07_t08_1.wav
+	Model : canonne_0.5s_A64_SchedSamp_SpecVQ_3
+	Params :
+		vocab_size = 64, segmentation = uniform, w_size = 0.5[s]
+		top-K = 0.8, with_coupling = True, remove = False, decoding = greedy, force_coupling = True, temperature = 1.0, entropy_weight = 0.0
+	Analysis :
+		accuracy = 13.12%, mean_len = 1.44, median_len = 1.00, max_len = 5, entropy = 2.43 [Bits], gt_set_portion = 26.87%
+
